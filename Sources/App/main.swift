@@ -7,4 +7,8 @@ drop.get("hello") { request in
 
 }
 
+drop.get("Bye") { request in
+    return "Good Bye World"
+}
+
 drop.run()
